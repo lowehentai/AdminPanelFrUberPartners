@@ -1,0 +1,225 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    height: 51px;
+    background-color: #212121;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.menu .menu_item:nth-child(6) {
+    border: none;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    top: 51px;
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 8px;
+
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    margin-top: 19px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 68px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.promo {
+    position: relative;
+    min-height: 800px;
+    background: url('../img/bg/mainBg.jpg') center center / cover no-repeat;
+    padding: 193px 0 135px 0;
+    z-index: -1;
+}
+
+
+.promo .promo_header {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    color: #fff;
+    font-style: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.advantages {
+    padding: 75px 0 65px 0;
+}
+
+.header_section {
+    text-align: center;
+}
+
+.header_section .advatages_head {
+    padding-top: 5px;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    width: 112px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.header_section .causes {
+    margin-top: 36px;
+    font-size: 38px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.advantages_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    line-height: 1.235;
+}
+
+.head_text_advantages {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.blue_round {
+    margin-right: 26px;
+    background-color: rgb(30, 172, 199);
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.full_text-container {
+    width: 340px;
+    margin-top: 35px;
+}
+
+.advantages_box {
+    display: flex;
+    justify-content: center;
+}
